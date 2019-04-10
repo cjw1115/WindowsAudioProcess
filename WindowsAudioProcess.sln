@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WindowsAudioProcess", "WindowsAudioProcess\WindowsAudioProcess.vcxproj", "{E7ADDEAB-E578-49D9-A557-AB13047E463A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E48CB9E1-E735-4087-813C-67A349B9E1DE}.Debug|x64.ActiveCfg = Debug|x64
+		{E48CB9E1-E735-4087-813C-67A349B9E1DE}.Debug|x64.Build.0 = Debug|x64
+		{E48CB9E1-E735-4087-813C-67A349B9E1DE}.Debug|x86.ActiveCfg = Debug|Win32
+		{E48CB9E1-E735-4087-813C-67A349B9E1DE}.Debug|x86.Build.0 = Debug|Win32
+		{E48CB9E1-E735-4087-813C-67A349B9E1DE}.Release|x64.ActiveCfg = Release|x64
+		{E48CB9E1-E735-4087-813C-67A349B9E1DE}.Release|x64.Build.0 = Release|x64
+		{E48CB9E1-E735-4087-813C-67A349B9E1DE}.Release|x86.ActiveCfg = Release|Win32
+		{E48CB9E1-E735-4087-813C-67A349B9E1DE}.Release|x86.Build.0 = Release|Win32
+		{E7ADDEAB-E578-49D9-A557-AB13047E463A}.Debug|x64.ActiveCfg = Debug|x64
+		{E7ADDEAB-E578-49D9-A557-AB13047E463A}.Debug|x64.Build.0 = Debug|x64
+		{E7ADDEAB-E578-49D9-A557-AB13047E463A}.Debug|x86.ActiveCfg = Debug|Win32
+		{E7ADDEAB-E578-49D9-A557-AB13047E463A}.Debug|x86.Build.0 = Debug|Win32
+		{E7ADDEAB-E578-49D9-A557-AB13047E463A}.Release|x64.ActiveCfg = Release|x64
+		{E7ADDEAB-E578-49D9-A557-AB13047E463A}.Release|x64.Build.0 = Release|x64
+		{E7ADDEAB-E578-49D9-A557-AB13047E463A}.Release|x86.ActiveCfg = Release|Win32
+		{E7ADDEAB-E578-49D9-A557-AB13047E463A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D66FA221-70B2-421B-9FC4-9C7F3A45D4DD}
+	EndGlobalSection
+EndGlobal
