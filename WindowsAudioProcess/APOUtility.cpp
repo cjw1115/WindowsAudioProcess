@@ -35,18 +35,10 @@ std::vector<std::wstring> APOUtility::SpiltGuid(std::wstring guidString)
 std::wstring APOUtility::PropertyKeyToString(const PROPERTYKEY & key)
 {
 	WCHAR clsidStr[PKEYSTR_MAX];
-	HRESULT hr = PSStringFromPropertyKey(key, clsidStr, ARRAYSIZE(clsidStr));
+	int count = PKEYSTR_MAX;
+	StringFromGUID2(key.fmtid, clsidStr, count);
 
-	int index = 0;
-	while (clsidStr[index])
-	{
-		if (clsidStr[index] == L' ')
-		{
-			clsidStr[index] = L',';
-		}
-		index++;
-	}
-	return std::wstring(clsidStr);
+	return std::wstring(clsidStr) + std::wstring(L",") + std::to_wstring(key.pid);
 }
 
 std::vector<std::wstring> APOUtility::GetActiveAPO(const std::wstring endpointID, const  std::wstring& effectKey, std::wstring& endpointType)
